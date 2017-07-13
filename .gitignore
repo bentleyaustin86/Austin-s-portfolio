@@ -13,7 +13,7 @@
 !/log/.keep
 !/tmp/.keep
 
-# I don't want to show my secrets
+# I don't want to show my secretcs
 /config/secretes.yml
 
 /node_modules
