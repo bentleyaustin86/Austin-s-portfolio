@@ -19,6 +19,7 @@ class BlogsController < ApplicationController
 
   # GET /blogs/1/edit
   def edit
+    @portfolio_item = Portfolio.find(params[:id])
   end
 
   # POST /blogs
@@ -40,6 +41,7 @@ class BlogsController < ApplicationController
   # PATCH/PUT /blogs/1
   # PATCH/PUT /blogs/1.json
   def update
+    @portfolio_item = Portfolio.find(params[:id])
     respond_to do |format|
       if @blog.update(blog_params)
         format.html { redirect_to @blog, notice: 'Blog was successfully updated.' }
