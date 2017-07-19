@@ -20,11 +20,11 @@ ActiveRecord::Schema.define(version: 20170718163213) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "topic_id"
     t.string "slug"
     t.integer "status", default: 0
+    t.integer "topic_id"
     t.index ["slug"], name: "index_blogs_on_slug", unique: true
-    #t.index ["topic_id"], name: "index_blogs_on_topic_id"
+    t.index ["topic_id"], name: "index_blogs_on_topic_id"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
