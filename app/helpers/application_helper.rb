@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    #DevcampViewTool::Renderer.copyright 'Austin Bentley', 'All rights reserved'
+    BentleyViewTool::Renderer.copyright 'Austin Bentley', 'All rights reserved'
   end
 
   def nav_items

@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/bentleyaustin86/bentley_view_tool
+  revision: 445b90610d020c18070e385b2e7f4567df1def28
+  specs:
+    bentley_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +211,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bentley_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
