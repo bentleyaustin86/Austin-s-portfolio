@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 60rem;
+    width: 65rem;
   }
 }
 
@@ -200,7 +200,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url('home_bg.png') no-repeat;
+  background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
@@ -213,12 +213,12 @@ body {
   margin: 20px;
 }
 
-.tech-news a {
-  color: blue;
- }
-
 .tech-news > .card {
-  padding: 20px;
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
 }
 
 .app-card-container {
@@ -226,8 +226,12 @@ body {
   text-align: left;
 }
 
-.app-card-container >.card {
-  padding: 40pxs;
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
 }
 
 .app-card-container a {
@@ -239,7 +243,10 @@ body {
   margin-bottom: 5px;
 }
 
-
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 
