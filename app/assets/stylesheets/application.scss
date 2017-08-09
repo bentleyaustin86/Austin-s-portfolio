@@ -25,12 +25,15 @@ a:hover {
 
 /*
  * Base structure
+
  */
 
 html,
 body {
   height: 100%;
-}
+  font-family: 'Merriweather', serif;
+  }
+
 body {
   color: #fff;
   text-align: center;
@@ -222,6 +225,8 @@ body {
 }
 
 .app-card-container {
+  margin-top: 20em;
+  margin-bottom: 20em;
   color: black;
   text-align: left;
 }
@@ -247,6 +252,5 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 
 
